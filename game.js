@@ -1,6 +1,7 @@
 
 var health = 100;
 var hits = 0;
+//attempted jquery
 // let resetButton = $('#reset-button');
 // let gameButtons = $('#slap-button,#kick-button,#smash-button,#apple-button,#heart-button,#strawberry-button');
 //attacks
@@ -38,6 +39,7 @@ function strawberry() {
 
 
 }
+//didnt get to implement reset button, had it in logic at first but removed
 function reset(attack) {
   if (health < 100) {
     health = 100;
@@ -55,12 +57,12 @@ function gameOver() {
   // resetButton.removeClass("invisible")
   // gameButtons.addClass("invisible")
 
-  //
+  //didn't get to this
   //
 }
 function updateView() {
   document.getElementById('health').innerText = health.toString()
-  // $("hits").text(hits)
+  // $("hits").text(hits)//was trying with jquery didn't work out
   // if (health > 75) {
   //   //first photo
   //   $('img[src]').attr("src", "starfox.jpg")
