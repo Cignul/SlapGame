@@ -55,13 +55,13 @@ function reset(attack) {
   };
 }
 
+//didn't get to this
 function gameOver() {
   health = 0;
   // resetButton.removeClass("invisible")
   // gameButtons.addClass("invisible")
 
-  //didn't get to this
-  //
+
 }
 function updateView() {
   document.getElementById('health').innerText = health.toString()
