@@ -7,17 +7,20 @@ var hits = 0;
 //attacks
 function slap() {
   health -= 10;
+  hits += 1;
   updateView()
   // return alert(health)
 }
 function kick() {
   health -= 5;
+  hits += 1;
   updateView()
 
   // return alert(health)
 }
 function smash() {
   health -= 10;
+  hits += 1;
   updateView()
 
   // return alert(health)
@@ -62,6 +65,7 @@ function gameOver() {
 }
 function updateView() {
   document.getElementById('health').innerText = health.toString()
+  document.getElementById('hits').innerText = hits.toString()
   // $("hits").text(hits)//was trying with jquery didn't work out
   // if (health > 75) {
   //   //first photo
