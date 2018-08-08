@@ -42,7 +42,7 @@ function strawberry() {
   updateView()
 }
 //trying to impliment modifier similar to the example, not working because
-// i used functions for items not an array of vars
+// i used functions for items not an array of vars craap
 // var apple = {
 //   name: 'apple',
 //   modifier: 2,
