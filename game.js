@@ -1,4 +1,5 @@
 
+
 var health = 100;
 var hits = 0;
 //attempted jquery
@@ -30,18 +31,26 @@ function heart() {
   health += 100;
   updateView()
 }
-function apple() {
-  health += 10;
-  updateView()
+// function apple() {
+//   health += 10;
+//   updateView()
 
 
-}
+// }
 function strawberry() {
   health += 20;
   updateView()
-
-
 }
+//trying to impliment modifier similar to the example, not working because
+// i used functions for items not an array of vars
+// var apple = {
+//   name: 'apple',
+//   modifier: 2,
+//   description: 'reduced damage'
+// }
+// function addMod() {
+//   +2
+// }
 //didnt get to implement reset button, had it in logic at first but removed
 function reset(attack) {
   if (health < 100) {
