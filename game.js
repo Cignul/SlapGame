@@ -2,7 +2,7 @@
 
 var health = 100;
 var hits = 0;
-function updateView() {
+export function updateView() {
   document.getElementById('health').innerText = health.toString()
   document.getElementById('hits').innerText = hits.toString()
 
